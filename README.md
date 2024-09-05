@@ -1,4 +1,4 @@
-## Title
+##Title
 Spartan Gallery
 
 ##Team Members
