@@ -1,8 +1,8 @@
-# Title
+## Title
 Spartan Gallery
 
-# Team Members
+## Team Members
 Ross Dezarn,
 Francis Kbriuh
 
-# Description
+## Description
