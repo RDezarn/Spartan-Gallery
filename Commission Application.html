@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <head>
-<title>Spartan Gallery - Admin Profile</title>
+<title>Spartan Gallery - Test page</title>
 </head>
 <body style = "background-color:#8c8c8c">
 
@@ -17,11 +17,11 @@
 
 	  <ul class="pure-menu-list">
 		<li class="pure-menu-item pure-menu-selected">
-			<a href=".html" class="pure-menu-link">Home</a>
+			<a href="Index.html" class="pure-menu-link">Home</a>
 	  </ul>
 	  <ul class="pure-menu-list">
 		<li class="pure-menu-item pure-menu-selected">
-			<a href=".html" class="pure-menu-link">Profile</a>
+			<a href="Index.html" class="pure-menu-link">Profile</a>
 	  </ul>
 	  <ul class="pure-menu-list">
 		<li class="pure-menu-item pure-menu-selected">
@@ -35,8 +35,7 @@
 	</div>
 </div>
 
-
-<!The style for the box around an item and left floating images>
+<!The style for the box around an item submission and left floating images>
 <style>
 div.DezBox {
   width: 900px;
@@ -57,7 +56,12 @@ img.LeftFloat {
 </style>
 
 <div class = "DezBox">
-	<h1> Admin Username </h1>
-	<h2> <a href = "Artist Application.html"> There are 1 Artist Apllications Pending </a> </h2>
-	<h2> <a href = "Feedback Form.html"> There is 1 Feedback Form Pending </h2>
+	<h2> User McUsername </h2>
+	<p> User McUsername has reached out to you for a commision, they would like: commision information here </p>
+	<form>
+	<input type = "radio" name = "Commision Acception" value = "accept">Accept Commision<br>
+	<input type = "radio" name = "Commision Acception" value = "decline">Decline Commision<br>
+	<textarea name = "CommisionFeedback" rows = "5" cols = "50" placeholder = "Here the artist can send a note explaining what additional infor they need"></textarea><br>
+	<input type = "submit" value = "Submit" style = "margin-left:10px;">
+	</form>
 </div>
