@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
+      integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+
+<style>
+
+    div.ProfileForm {
+        width: 500px;
+        border: 10px solid #d7cf1c;
+        background-color: #fefefe;
+        padding: 20px;
+        margin: 40px auto;
+    }
+
+    body {
+        background-color: #8c8c8c;
+    }
+
+    .header {
+        background-color: #d7cf1c;
+        padding: 10px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+</style>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+    <title>Spartan Gallery - Create Profile</title>
+</head>
+<body>
+<div class="header" style="background-color:#d7cf1c;">
+    <div class="pure-menu pure-menu-horizontal">
+        <a class="pure-menu-heading" href="Index.html"> <b> Spartan Gallery </b> </a>
+
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item pure-menu-selected">
+                <a href="Index.html" class="pure-menu-link">Home</a>
+        </ul>
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item pure-menu-selected">
+                <a href="Profile.html" class="pure-menu-link">Profile</a>
+        </ul>
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item pure-menu-selected">
+                <a href="Artist.html" class="pure-menu-link">Artist</a>
+
+        </ul>
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item pure-menu-selected">
+                <a href="Admin.html" class="pure-menu-link">Admin</a>
+        </ul>
+    </div>
+</div>
+
+<div class="ProfileForm">
+    <h2>Create Your Account</h2>
+    <form action="userProfile.html" method="post"  class="pure-form pure-form-stacked">
+
+        <label for="userFirstName">First Name</label>
+        <input type="text" id="userFirstName" name="userFirstName" required>
+
+        <label for="userLastName">Last Name</label>
+        <input type="text" id="userLastName" name="userLastName" required>
+
+        <label for="userName">username</label>
+        <input type="text" id="userName" name="userName" required>
+
+        <label for="userEmail">Email</label>
+        <input type="text" id="userEmail" name="userEmail" required>
+
+        <label for="userPassword">Create Password</label>
+        <input type="text" id="userPassword" name="userPassword" required>
+
+        <button type="submit" class="pure-button pure-button-primary">Create Profile</button>
+    </form>
+</div>
+
+</body>
+</html>
