@@ -1,0 +1,3 @@
+[submodule "SpartanGallery/Spartan-Gallery"]
+	path = SpartanGallery/Spartan-Gallery
+	url = https://github.com/RDezarn/Spartan-Gallery.git
